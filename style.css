@@ -13,7 +13,7 @@
   align-items: center;
   height: 100vh;
   flex-direction: column;
-  background-color: #053a5f;
+  background-color: #001881;
 }
 
 h1 {
@@ -38,14 +38,14 @@ h1 {
   height: 50px;
   font-size: 18px;
   padding: 0 30px;
-  border: 1px solid #053a5f;
+  border: 1px solid #001881;
   border-radius: 10px;
   outline: none;
 }
 
 .inputContainer i {
   font-size: 24px;
-  color: #053a5f;
+  color: #001881;
   position: absolute;
   top: 50%;
   right: 10px;
@@ -62,28 +62,30 @@ h1 {
 
 .rangeContainer input {
   width: 90%;
-  accent-color: #053a5f;
+  accent-color: #001881;
   cursor: pointer;
 }
 
 /* For Firefox */
 .rangeContainer input::-moz-range-thumb {
-  border: 3px solid #053a5f;
-  outline: 4px solid #053a5f;
+  border: 3px solid #001881;
+  outline: 4px solid #001881;
   outline-offset: 3px;
+  border-radius: 50px;
 }
 
 .rangeContainer input::-moz-range-track {
   height: 12px;
   border-radius: 50px;
-  background: #053a5f;
+  background: #001881;
 }
 
 /* For chrome, edge and safari */
 .rangeContainer input::-webkit-slider-thumb {
-  border: 3px solid #053a5f;
-  outline: 4px solid #053a5f;
+  border: 3px solid #001881;
+  outline: 4px solid #001881;
   outline-offset: 3px;
+  border-radius: 50px;
 }
 
 .rangeContainer span {
@@ -95,7 +97,7 @@ h1 {
   width: 100%;
   height: 50px;
   color: white;
-  background-color: #053a5f;
+  background-color: #001881;
   border: none;
   border-radius: 10px;
   cursor: pointer;
